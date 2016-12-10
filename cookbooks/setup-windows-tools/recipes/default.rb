@@ -4,80 +4,79 @@
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
-include_recipe 'chocolatey'
-
-chocolatey '7zip' do
+chocolatey_package '7zip' do
   action :install
 end
-chocolatey 'firefox' do
+chocolatey_package 'firefox' do
   action :install
 end
-chocolatey 'googlechrome' do
+chocolatey_package 'googlechrome' do
   action :install
 end
-chocolatey 'notepadplusplus' do
+chocolatey_package 'notepadplusplus' do
   action :install
 end
-chocolatey 'vim' do
+chocolatey_package 'vim' do
   action :install
 end
-chocolatey 'visualstudiocode' do
+chocolatey_package 'visualstudiocode' do
   action :install
 end
-chocolatey 'conemu' do
+chocolatey_package 'conemu' do
   action :install
 end
-chocolatey 'chefdk' do
+chocolatey_package 'chefdk' do
   action :install
 end
-chocolatey 'msys2' do
+chocolatey_package 'msys2' do
   action :install
 end
-chocolatey 'virtualbox' do
+chocolatey_package 'virtualbox' do
   action :install
 end
-chocolatey 'git' do
+chocolatey_package 'git' do
   action :install
 end
-chocolatey 'tortoisegit' do
+chocolatey_package 'tortoisegit' do
   action :install
 end
-chocolatey 'sourcetree' do
+chocolatey_package 'sourcetree' do
   action :install
 end
-chocolatey 'freemind' do
+chocolatey_package 'freemind' do
   action :install
 end
-chocolatey 'vlc' do
+chocolatey_package 'vlc' do
   action :install
 end
-chocolatey 'skype' do
+chocolatey_package 'skype' do
   action :install
 end
-chocolatey 'freedownloadmanager' do
+chocolatey_package 'freedownloadmanager' do
+  options '--allow-empty-checksums'
   action :install
 end
-chocolatey 'putty.portable' do
+chocolatey_package 'putty.portable' do
   action :install
 end
-chocolatey 'winscp' do
+chocolatey_package 'winscp' do
   action :install
 end
-chocolatey 'winmerge' do
+chocolatey_package 'winmerge' do
   action :install
 end
-chocolatey 'soapui' do
+chocolatey_package 'soapui' do
   action :install
 end
-chocolatey 'python' do
+chocolatey_package 'python' do
   action :install
 end
-chocolatey 'ruby' do
+chocolatey_package 'ruby' do
   action :install
 end
-chocolatey 'gradle' do
+chocolatey_package 'gradle' do
   action :install
 end
-chocolatey 'intellijidea-community' do
+chocolatey_package 'intellijidea-community' do
   action :install
 end
