@@ -42,9 +42,6 @@ end
 chocolatey 'tortoisegit' do
   action :install
 end
-chocolatey 'github' do
-  action :install
-end
 chocolatey 'sourcetree' do
   action :install
 end
@@ -61,12 +58,6 @@ chocolatey 'freedownloadmanager' do
   action :install
 end
 chocolatey 'putty.portable' do
-  action :install
-end
-chocolatey 'totalcommander' do
-  action :install
-end
-chocolatey 'qdir' do
   action :install
 end
 chocolatey 'winscp' do
