@@ -80,3 +80,6 @@ end
 chocolatey_package 'intellijidea-community' do
   action :install
 end
+chocolatey_package 'groovy' do
+  action :install
+end
