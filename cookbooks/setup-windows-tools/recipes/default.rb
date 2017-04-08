@@ -83,3 +83,6 @@ end
 chocolatey_package 'groovy' do
   action :install
 end
+chocolatey_package 'golang' do
+  action :install
+end
