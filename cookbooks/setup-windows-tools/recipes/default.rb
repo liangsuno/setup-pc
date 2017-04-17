@@ -31,8 +31,8 @@ end
 chocolatey_package 'msys2' do
   action :install
 end
-chocolatey_package 'virtualbox' do
-  action :install
+#chocolatey_package 'virtualbox' do
+#  action :instald
 end
 chocolatey_package 'git' do
   action :install
@@ -84,5 +84,8 @@ chocolatey_package 'groovy' do
   action :install
 end
 chocolatey_package 'golang' do
+  action :install
+end
+chocolatey_package 'rdcman' do
   action :install
 end
