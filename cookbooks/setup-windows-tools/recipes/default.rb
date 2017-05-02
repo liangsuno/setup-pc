@@ -89,3 +89,6 @@ end
 chocolatey_package 'rdcman' do
   action :install
 end
+chocolatey_package 'nuget.commandline' do
+  action :install
+end
