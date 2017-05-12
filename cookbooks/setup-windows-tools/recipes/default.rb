@@ -86,3 +86,6 @@ end
 chocolatey_package 'golang' do
   action :install
 end
+chocolatey_package 'keepass' do
+  action :install
+end
