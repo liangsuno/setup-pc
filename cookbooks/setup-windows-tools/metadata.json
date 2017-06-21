@@ -8,7 +8,6 @@
   "platforms": {
   },
   "dependencies": {
-    "chocolatey": ">= 0.0.0"
   },
   "recommendations": {
   },

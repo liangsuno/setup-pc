@@ -31,9 +31,6 @@ end
 chocolatey_package 'msys2' do
   action :install
 end
-#chocolatey_package 'virtualbox' do
-#  action :instald
-end
 chocolatey_package 'git' do
   action :install
 end
