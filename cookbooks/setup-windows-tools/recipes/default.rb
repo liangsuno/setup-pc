@@ -89,3 +89,6 @@ end
 chocolatey_package 'nuget.commandline' do
   action :install
 end
+chocolatey_package 'keepass' do
+  action :install
+end
